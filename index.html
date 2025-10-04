@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" style="background-color: red;">
+        <h1 style="background-color: red;">Know the Weather</h1>
+        <form id="weather-form" style="background-color: red; padding: 25px;">
+            <input type="text" id="location" placeholder="Enter the location...">
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weather-container" style="background-color: red;">
+            <h2 id="location-name" style="background-color: red;">Weather data on it's way</h2>
+            <h3 id="temperature" style="background-color: red;"></h3>
+            <p id="description" style="background-color: red;"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+<footer>
+    <p style="display: flex; align-items: center; justify-content: center;">&copy; 2025 Weather App by<a
+            href="https://github.com/aryan-anand-sde"><b>&nbsp;Aryan Anand&nbsp;</b></a> <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/500px-Flag_of_India.svg.png"
+            alt="Flag" style="height: 15px;"></p>
+</footer>
+
+</html>
